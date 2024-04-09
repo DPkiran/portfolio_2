@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+   <!-- side menu  -->
+   <div id="menu">
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <div class="menu-inner">
+      <ul>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#experience">My Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact me</a></li>
+      </ul>
+    </div>
+    <svg version="1.1" id="blob" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <path id="blob-path" d="M60,500H0V0h60c0,0,20,172,20,250S60,900,60,500z" />
+    </svg>
+  </div>
+
+  <!-- profile -->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile_pic.jpeg" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Deepak kiran</h1>
+        <p class="section__text__p2">Software Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://drive.google.com/file/d/16k0qPfQhsW_1QWXxeQlEzc780vBHDV4M/view?usp=sharing')">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="window.location.href='https://www.linkedin.com/in/deepak-kiran-58b3ba2b4' " >
+            Get in touch
+            <img class="hover_img" src="./assets/linkedin.png">
+          </button>
+        </div>
+        <div id="socials-container">
+          <div class="sns_button github">
+              <a href="https://github.com/DPkiran" title="github"><i class="fa fa-github"></i></a>
+          </div>
+          <div class="sns_button twitter">
+            <a href="https://twitter.com/DPkiran1" title="twitter"><i class="fa fa-twitter"></i></a>
+          </div>
+          <div class="sns_button codepen">
+            <a href="https://codepen.io/DP-kiran" title="codepen"><i class="fa fa-codepen"></i></a>
+          </div>
+          <div class="sns_button instagram">
+            <a href="https://www.instagram.com/kiranio_" title="instagram"><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about_me pic.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>web developer intern <br />pyrimidioan solutions</p>
+              <div class="details-overlay"></div>
+            </div>
+
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Btech<br />Electronics & computer engineering</p>
+              <div class="details-overlay"></div>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>Heyy</p>
+            <p> , I'm Deepak kiran, your code-loving caffeine aficionado! With a keyboard and a coffee buzz&#9749;, 
+          I'm here to make cool stuff happen on screens &#128187;. From sleek websites to interactive apps, I'm all about bringing 
+          ideas to life digitally. Ready to add some coding awesomeness to your projects? Let's team up and turn pixels 
+          into perfection!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="text-container_2">
+        <p>Heyy</p>
+        <p> I'm Deepak kiran, your code-loving caffeine aficionado! With a keyboard and a coffee buzz&#9749;, 
+          I'm here to make cool stuff happen on screens &#128187;. From sleek websites to interactive apps, I'm all about bringing 
+          ideas to life digitally. Ready to add some coding awesomeness to your projects? Let's team up and turn pixels 
+          into perfection!
+        </p>
+      </div>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Web Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/react.1024x912.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React JS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/node.1024x651.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/sql.1024x1024.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/javascript-js-square.1023x1024.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <div class="details-overlay"></div>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Python fundamentals</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/logo-python.1013x1024.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/pandas.644x1024.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Pandas</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/numpy.958x1024.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>NumPY</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/git-alt.1023x1024.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <div class="details-overlay"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="project-flex">
+        <div class="card">
+          <div class="card-img">
+            <div class="overlay">
+              <div class="overlay-content">
+                <a class="#!" href="https://pulsenotify.netlify.app">View Project</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card-content">
+            <a href="#!">
+              <h2>Pulsenotify</h2>
+              <p>Medical Pager Chat Application</p>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-img" >
+            <div class="overlay">
+              <div class="overlay-content">
+                <a href="https://alan-na.netlify.app">View Project</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card-content">
+            <a href="#!">
+              <h2>ALAN-NA</h2>
+              <p>Alan Ai news assistant</p>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-img">
+            <div class="overlay">
+              <div class="overlay-content">
+                <a href="https://tr-ad.netlify.app">View Project</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card-content">
+            <a href="#!">
+              <h2>TR_AD</h2>
+              <p>Travel advisor app</p>
+              <p><img src="assets/react.1024x912.png" alt=""></p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="https://mail.google.com">dpkiran24@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/facebook.1024x1024.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.facebook.com/profile.php?id=61557831702166">Deepak kiran</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright &#169; 2023 Deepak kiran. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,184 @@
+@media (min-width: 768px) and (max-width: 1200px) {
+  body{
+    margin-left: 1rem;
+  }
+  section{
+    margin: 0 5rem;
+  }
+  #profile .section__pic-container{
+    height: 350px;
+    width: 350px;
+  }
+
+  .section__text__p2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .title {
+    font-size: 2.7rem;
+    text-align: center;
+  }
+
+  .text-container{
+    display: none;
+  }
+
+  .section-container{
+    margin: 2rem 0 1rem 0;
+  }
+  #about .about-containers{
+    flex-direction: column;
+  }
+
+  .text-container_2{
+    display: block;
+  }
+
+  .project-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+  }
+
+  .card:first-child, .card:nth-child(2){
+    width: 45%;
+  }
+
+  .card:last-child{
+    width: 60%;
+    margin: auto;
+  }
+
+
+}
+
+@media (max-width:980px) {
+  .project-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+  }
+  .card:first-child,
+  .card:nth-child(2),
+  .card:last-child{
+    width: 80%;
+    margin: auto;
+  
+  }
+}
+
+@media (max-width: 900px) {
+  body{
+    margin-left: 1rem;
+  }
+  /* Styles for mobile phones */
+  #profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  #about .section-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+ 
+  }
+  .section__pic-container{
+    /* margin: auto; */
+    height: 300px;
+    width: fit-content;
+    justify-content: center;
+    margin: auto;
+
+  }
+  .section__pic-container img{
+    height: 100%;
+    /* width: 100%; */
+  }
+
+  .section__text__p2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  #about .about-containers{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #experience .about-containers{
+    display: flex;
+  flex-direction: column; 
+ }
+
+ #projects{
+  margin: 0 2rem;
+ }
+
+ #contact .contact-info-upper-container{
+  display: flex;
+  flex-direction: column;
+
+ }
+ #contact .contact-info-container{
+  justify-content: flex-start;
+  margin: 0.5rem;
+ }
+ #contact .contact-info-container:nth-child(2){
+  margin-left: 0.8rem;
+ }
+
+ #contact .contact-info-container p a{
+  font-size: 1rem;
+ }
+
+ footer{
+  font-size: 0.9rem;
+ }
+}
+
+@media  (max-width:500px) {
+  body{
+    height: 100vh;
+    margin-left: 1rem;
+  }
+  #menu{
+    height: 100vh;
+  }
+  
+
+  #profile{
+    margin: 0 2rem;
+  }
+
+  #profile .section__pic-container,
+  #about .section__pic-container{
+    height: 250px;
+    width: 250px;
+  }
+  .section__text__p2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  #projects{
+    margin: 0 3rem;
+  }
+
+  #about .about-containers{
+    display: flex;
+    flex-direction: column;
+  }
+}
